@@ -1,0 +1,72 @@
+nav {
+    padding: 10px 25px;
+    font-family: 'Agency FB';
+    background-color: #eef0ff;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.navLogo {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: linear-gradient(to right, red, green);
+    background-color: #eef0ff;
+}
+
+
+.navItems {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eef0ff;
+}
+
+.navItems li a {
+    background-color: #eef0ff;
+    text-decoration: none;
+    border-bottom: 1px solid #ff4321;
+    padding: 0 10px;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.navItems li a:hover {
+    border-bottom: 3px solid #000;
+    background-color: #ff4321;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 20px;
+    color: #eef0ff;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav button {
+    background-color: #ff4321;
+    border: 1px;
+    border-radius: 10px;
+    padding: 0px 30px;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #eef0ff;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+nav button:hover {
+    font-size: 22px;
+    transition: 0.5s;
+    padding: 0px 50px;
+}
