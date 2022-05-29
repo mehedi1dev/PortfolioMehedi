@@ -1,5 +1,4 @@
-.about {
-    height: 700px;
+.education {
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
@@ -8,7 +7,7 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
-.about .title {
+.education .title {
     text-transform: uppercase;
     font-size: 36px;
     font-weight: bold;
