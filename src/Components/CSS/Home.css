@@ -1,34 +1,61 @@
 .homeSection {
-    margin: 150px 0px;
+    padding: 250px 150px;
     background-color: #eef0ff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.homeImage {
+    margin: 0px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.homeImage,
 .homeText {
     margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-p {
+.hello {
     font-family: 'Pacifico', cursive;
 }
 
 h1 {
-    font-family: 'PT Sans Narrow', sans-serif;
     font-size: 60px;
     font-weight: 400;
 }
 
 h2 {
-    font-family: 'PT Sans Narrow', sans-serif;
     font-size: 30px;
     font-weight: 400;
 }
 
+.homeLearnMore {
+    margin: 10px 10px 30px 0px;
+}
+
+.homeLearnMore a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #ff4321;
+    transition: 0.5s;
+}
+
+.homeLearnMore a:hover {
+    font-size: 30px;
+    padding: 5px;
+    background-color: #ff4321;
+    border-bottom: 2px solid #000;
+    transition: 0.3s;
+}
+
 .btn {
-    padding: 15px 25px;
+    padding: 15px 150px;
     margin: 20px 30px 20px 0px;
     border: 1px;
     border-radius: 10px;
@@ -37,23 +64,9 @@ h2 {
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.7s;
-}
-
-.btn:hover {
-    font-size: 22px;
     transition: 0.3s;
-    padding: 15px 50px;
 }
 
-.hireButton {
-    background-color: #ff4321;
-    color: #eef0ff;
-}
-
-.hireButton:hover {
-    border-bottom: 3px solid #000;
-}
 
 .downloadButton {
     background-color: #c4c4c4;
@@ -61,31 +74,7 @@ h2 {
 }
 
 .downloadButton:hover {
-    border-bottom: 3px solid #ff4321;
-}
-
-.github {
-    font-size: 30px;
-    margin-right: 20px;
-    cursor: pointer;
-    transition: 0.7s;
-}
-
-.github:hover {
-    font-size: 40px;
-    transition: 0.3s;
-    color: #a020f0;
-}
-
-.facebook {
-    font-size: 30px;
-    margin-right: 20px;
-    cursor: pointer;
-    transition: 0.7s;
-}
-
-.facebook:hover {
-    font-size: 40px;
-    transition: 0.3s;
-    color: #2e89ff;
+    color: #ff4321;
+    background-color: #202020;
+    border-bottom: 4px solid #ff4321;
 }

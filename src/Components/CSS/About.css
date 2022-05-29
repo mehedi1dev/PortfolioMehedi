@@ -1,4 +1,60 @@
 .aboutSection {
-    height: 100vh;
-    background-color: wheat;
+    padding: 75px 200px;
+    background-color: #eef0ff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Mono', monospace;
+}
+
+.aboutName h1 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ml75 {
+    margin-left: 75px;
+}
+
+.ml300 {
+    margin-left: 300px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.aboutDescription {
+    font-size: 20px;
+    margin: 0px 150px;
+    text-align: justify;
+}
+
+.aboutDescription p {
+    margin-bottom: 20px;
+}
+
+.aboutImage {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutImage img {
+
+    width: 400px;
+    height: 600px;
+}
+
+.aboutSocialMedia a {
+    margin-right: 10px;
+    color: #000;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.facebook:hover {
+    font-size: 40px;
+    transition: 0.3s;
+    color: #2e89ff;
 }

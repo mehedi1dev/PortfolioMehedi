@@ -2,6 +2,8 @@ nav {
     padding: 10px 25px;
     font-family: 'Agency FB';
     background-color: #eef0ff;
+    position: fixed;
+    width: 100%;
 }
 
 ul {
@@ -15,10 +17,15 @@ ul {
 
 .navLogo {
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    margin: auto;
+    padding: 5px 15px;
     text-transform: uppercase;
-    color: linear-gradient(to right, red, green);
-    background-color: #eef0ff;
+    color: #eef0ff;
+    background-color: #202020;
+    border-radius: 10px;
+    cursor: default;
 }
 
 
@@ -37,7 +44,7 @@ ul {
     color: #000;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .navItems li a:hover {
@@ -48,7 +55,7 @@ ul {
     font-size: 20px;
     color: #eef0ff;
     font-weight: bold;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 nav button {
@@ -67,6 +74,6 @@ nav button {
 
 nav button:hover {
     font-size: 22px;
-    transition: 0.5s;
+    transition: 0.3s;
     padding: 0px 50px;
 }
