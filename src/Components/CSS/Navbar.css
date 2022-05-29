@@ -1,79 +1,77 @@
 nav {
-    padding: 10px 25px;
-    font-family: 'Agency FB';
-    background-color: #eef0ff;
-    position: fixed;
-    width: 100%;
+    padding: 30px;
+    height: 680px;
+    width: 235px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 ul {
     list-style: none;
 }
 
-.navbar {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-}
-
 .navLogo {
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-    margin: auto;
-    padding: 5px 15px;
-    text-transform: uppercase;
-    color: #eef0ff;
-    background-color: #202020;
-    border-radius: 10px;
-    cursor: default;
+    display: flex;
+    justify-content: center;
 }
 
+.navLogo img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.navName {
+    text-align: center;
+}
+
+.navName h1 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.navName p {
+    font-size: 20px;
+    color: #fff;
+}
 
 .navItems {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #eef0ff;
+    margin-top: 30px;
+}
+
+.navItems li {
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .navItems li a {
-    background-color: #eef0ff;
     text-decoration: none;
-    border-bottom: 1px solid #ff4321;
-    padding: 0 10px;
-    color: #000;
+    color: #fff;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     transition: 0.7s;
 }
 
 .navItems li a:hover {
-    border-bottom: 3px solid #000;
-    background-color: #ff4321;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-size: 20px;
-    color: #eef0ff;
+    padding-left: 25px;
+    font-size: 24px;
     font-weight: bold;
     transition: 0.3s;
 }
 
-nav button {
-    background-color: #ff4321;
-    border: 1px;
-    border-radius: 10px;
-    padding: 0px 30px;
-    margin: 0 auto;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: #eef0ff;
-    transition: 0.7s;
+.navSocialMedia {
+    margin: 100px 10px 10px 0px;
     cursor: pointer;
+    transition: 0.7s;
 }
 
-nav button:hover {
-    font-size: 22px;
+.navSocialMedia a {
+    color: #000;
+    font-size: 30px;
+}
+
+.facebook:hover {
+    font-size: 40px;
     transition: 0.3s;
-    padding: 0px 50px;
+    color: #2e89ff;
 }

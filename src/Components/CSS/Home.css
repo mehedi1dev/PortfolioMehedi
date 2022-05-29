@@ -1,16 +1,13 @@
 .homeSection {
-    padding: 250px 150px;
-    background-color: #eef0ff;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-
-.homeImage {
-    margin: 0px 50px;
+    height: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
     display: flex;
     justify-content: center;
-    align-items: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 .homeText {
@@ -22,6 +19,7 @@
 
 .hello {
     font-family: 'Pacifico', cursive;
+    font-size: 22px;
 }
 
 h1 {
@@ -54,8 +52,12 @@ h2 {
     transition: 0.3s;
 }
 
+.button {
+    display: flex;
+}
+
 .btn {
-    padding: 15px 150px;
+    padding: 15px 20px;
     margin: 20px 30px 20px 0px;
     border: 1px;
     border-radius: 10px;
@@ -74,6 +76,17 @@ h2 {
 }
 
 .downloadButton:hover {
+    color: #ff4321;
+    background-color: #202020;
+    border-bottom: 4px solid #ff4321;
+}
+
+.hireButton {
+    background-color: #ff4321;
+    color: #fff;
+}
+
+.hireButton:hover {
     color: #ff4321;
     background-color: #202020;
     border-bottom: 4px solid #ff4321;
