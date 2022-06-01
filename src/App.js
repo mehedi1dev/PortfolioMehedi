@@ -11,14 +11,17 @@ import { BackToTop } from './Components/BackToTop';
 function App() {
   return (
     <div className='container'>
-      <div className='nav'>
+      <div id='Home' style={{'height':'50px'}}></div>
         <Navbar />
-      </div>
       <div className='sections'>
         <Home />
+        <div id='About' style={{'height':'50px'}}></div>
         <About />
+        <div id='Skill' style={{'height':'50px'}}></div>
         <Skill />
+        <div id='Education' style={{'height':'50px'}}></div>
         <Education />
+        <div id='Contact' style={{'height':'50px'}}></div>
         <Contact />
       </div>
 

@@ -3,6 +3,13 @@ nav {
     height: 680px;
     width: 235px;
     font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 25px;
+    position: fixed;
+    top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+
 }
 
 ul {
@@ -26,52 +33,63 @@ ul {
 }
 
 .navName h1 {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 40px;
 }
 
 .navName p {
     font-size: 20px;
-    color: #fff;
+    color: #ff4321;
 }
 
 .navItems {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .navItems li {
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .navItems li a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     transition: 0.7s;
 }
 
 .navItems li a:hover {
-    padding-left: 25px;
+    margin-left: 15px;
+    padding-bottom: 5px;
     font-size: 24px;
     font-weight: bold;
+    border-bottom: 3px solid #ff4321;
     transition: 0.3s;
 }
 
-.navSocialMedia {
-    margin: 100px 10px 10px 0px;
-    cursor: pointer;
-    transition: 0.7s;
+.backgroundColor,
+.resetButton {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.navSocialMedia a {
-    color: #000;
-    font-size: 30px;
-}
-
-.facebook:hover {
-    font-size: 40px;
-    transition: 0.3s;
+.resetButton input {
+    padding: 10px 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
     color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-height: 800px) {
+    nav {
+        height: 80%;
+        margin-bottom: 15px;
+        overflow: scroll;
+    }
 }

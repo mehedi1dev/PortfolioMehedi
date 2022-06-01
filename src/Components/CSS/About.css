@@ -1,6 +1,5 @@
 .about {
-    height: 700px;
-    margin: 50px auto;
+    margin: 0px auto;
     padding: 20px;
     background-color: #fff;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -9,11 +8,50 @@
 }
 
 .about .title {
-    text-transform: uppercase;
-    font-size: 36px;
+    margin: 25px 30px;
+}
+
+.about .title hr {
+    margin-top: 5px;
+    width: 50px;
+    height: 5px;
+    background-color: #ff4321;
+    border: none;
+    border-radius: 25px;
+
+}
+
+.about .title h1 {
+    font-size: 40px;
     font-weight: bold;
-    margin: 0px 30px;
-    border-bottom: 3px solid #ff4321;
+
+}
+
+.aboutSection {
+    margin: 25px;
+    font-family: 'Space Mono';
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.aboutSection img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: auto 0px;
+}
+
+.aboutText {
+    margin: 25px 50px;
+}
+
+.aboutText h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.aboutText p {
+    font-size: 20px;
+    text-align: justify;
     margin-top: 25px;
-    margin-bottom: 75px;
 }

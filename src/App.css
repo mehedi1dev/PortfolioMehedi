@@ -1,19 +1,11 @@
 body {
     background-color: #f6f7ff;
+    background-image: linear-gradient(to right, #f6f7ff, #f6f7ff);
 }
 
 .container {
     width: 1200px;
     margin: auto;
-
-}
-
-.nav {
-    background-color: #ff4321;
-    margin: auto;
-    border-radius: 25px;
-    position: fixed;
-    top: 50px;
 }
 
 .sections {

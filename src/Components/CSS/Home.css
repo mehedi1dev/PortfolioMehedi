@@ -1,6 +1,6 @@
 .homeSection {
     height: 700px;
-    margin: 50px auto;
+    margin: 0px auto;
     padding: 20px;
     background-color: #fff;
     display: flex;
@@ -36,22 +36,6 @@ h2 {
     margin: 10px 10px 30px 0px;
 }
 
-.homeLearnMore a {
-    font-size: 25px;
-    text-decoration: none;
-    color: #000;
-    border-bottom: 2px solid #ff4321;
-    transition: 0.5s;
-}
-
-.homeLearnMore a:hover {
-    font-size: 30px;
-    padding: 5px;
-    background-color: #ff4321;
-    border-bottom: 2px solid #000;
-    transition: 0.3s;
-}
-
 .button {
     display: flex;
 }
@@ -77,6 +61,7 @@ h2 {
 
 .downloadButton:hover {
     color: #ff4321;
+    padding: 11px 20px;
     background-color: #202020;
     border-bottom: 4px solid #ff4321;
 }
@@ -88,6 +73,7 @@ h2 {
 
 .hireButton:hover {
     color: #ff4321;
+    padding: 11px 20px;
     background-color: #202020;
     border-bottom: 4px solid #ff4321;
 }

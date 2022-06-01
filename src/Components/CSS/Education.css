@@ -1,5 +1,5 @@
 .education {
-    margin: 50px auto;
+    margin: 0px auto;
     padding: 20px;
     background-color: #fff;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -8,11 +8,20 @@
 }
 
 .education .title {
-    text-transform: uppercase;
-    font-size: 36px;
+    margin: 25px 30px;
+}
+
+.education .title hr {
+    margin-top: 5px;
+    width: 50px;
+    height: 5px;
+    background-color: #ff4321;
+    border: none;
+    border-radius: 25px;
+}
+
+.education .title h1 {
+    font-size: 40px;
     font-weight: bold;
-    margin: 0px 30px;
-    border-bottom: 3px solid #ff4321;
-    margin-top: 25px;
-    margin-bottom: 75px;
+
 }
