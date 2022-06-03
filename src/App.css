@@ -1,6 +1,5 @@
 body {
-    background-color: #f6f7ff;
-    background-image: linear-gradient(to right, #f6f7ff, #f6f7ff);
+    background-color: #f7f7f7;
 }
 
 .container {
@@ -12,4 +11,42 @@ body {
     margin: auto;
     width: 875px;
     float: right;
+}
+
+.gapOne {
+    height: 50px;
+}
+
+.gap {
+    height: 50px;
+}
+
+@media screen and (max-width: 1250px) {
+    body {
+        background-color: #fff;
+    }
+
+    .container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sections {
+        float: none;
+        width: 90vw;
+    }
+
+    .gapOne {
+        height: 0px;
+    }
+
+    .gapR {
+        height: 125px;
+    }
+
+    .gap {
+        height: 100px;
+    }
 }

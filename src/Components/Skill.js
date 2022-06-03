@@ -13,6 +13,13 @@ export const Skill = () => {
             </div>
             <div className="skillSection">
                 <div className="skillType">
+                    <p><span style={{'color':'#e8d44d', 'padding':'7px 4px 0 0'}}><SiJavascript /></span> JavaScript <span style={{'margin':'auto 10% auto auto'}}>85%</span></p>
+                    <div className="skillBar">
+                        <div style={{'width':'85%'}} className="skillSubBar"></div>
+                    </div>
+                </div>
+
+                <div className="skillType">
                     <p><span style={{'color':'#dd4b25', 'padding':'7px 4px 0 0'}}><FaHtml5 /></span> HTML <span style={{'margin':'auto 10% auto auto'}}>80%</span></p>
                     <div className="skillBar">
                         <div style={{'width':'80%'}} className="skillSubBar"></div>
@@ -23,13 +30,6 @@ export const Skill = () => {
                     <p><span style={{'color':'#254bdd', 'padding':'7px 4px 0 0'}}><FaCss3Alt /></span> CSS <span style={{'margin':'auto 10% auto auto'}}>80%</span></p>
                     <div className="skillBar">
                         <div style={{'width':'80%'}} className="skillSubBar"></div>
-                    </div>
-                </div>
-
-                <div className="skillType">
-                    <p><span style={{'color':'#e8d44d', 'padding':'7px 4px 0 0'}}><SiJavascript /></span> JavaScript <span style={{'margin':'auto 10% auto auto'}}>90%</span></p>
-                    <div className="skillBar">
-                        <div style={{'width':'90%'}} className="skillSubBar"></div>
                     </div>
                 </div>
 

@@ -11,20 +11,21 @@ import { BackToTop } from './Components/BackToTop';
 function App() {
   return (
     <div className='container'>
-      <div id='Home' style={{'height':'50px'}}></div>
+      <div id='Home' className='gapOne'></div>
         <Navbar />
-      <div className='sections'>
+      <div className='sections'>  
+        <div className='gapR'></div>
         <Home />
-        <div id='About' style={{'height':'50px'}}></div>
+        <div id='About' className='gap'></div>
         <About />
-        <div id='Skill' style={{'height':'50px'}}></div>
+        <div id='Skill' className='gap'></div>
         <Skill />
-        <div id='Education' style={{'height':'50px'}}></div>
+        <div id='Education' className='gap'></div>
         <Education />
-        <div id='Contact' style={{'height':'50px'}}></div>
+        <div id='Contact' className='gap'></div>
         <Contact />
+        <div style={{'height':'75px'}}></div>
       </div>
-
       <BackToTop />
     </div>
   );

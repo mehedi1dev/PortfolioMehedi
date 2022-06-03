@@ -55,3 +55,14 @@
     text-align: justify;
     margin-top: 25px;
 }
+
+@media screen and (max-width:850px) {
+    .aboutSection {
+        display: block;
+    }
+
+    .aboutSection img {
+        display: none;
+
+    }
+}

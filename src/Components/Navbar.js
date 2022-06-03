@@ -1,23 +1,28 @@
 import React from "react";
 import './CSS/Navbar.css';
-import { FaFacebook, FaHome, FaUserEdit, FaTasks, FaBook, FaMobile } from 'react-icons/fa';
+import { FaHome, FaUserEdit, FaTasks, FaBook, FaMobile } from 'react-icons/fa';
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 export const Navbar = () => {
-    const [lColor, setLColor] = React.useState('#f6f7ff') 
-    const [rColor, setRColor] = React.useState('#f6f7ff') 
+    const [lColor, setLColor] = React.useState('#f7f7f7') 
+    const [rColor, setRColor] = React.useState('#f7f7f7') 
 
     React.useEffect(() => {
         document.body.style.backgroundImage = `linear-gradient(to right, ${lColor}, ${rColor})`
     })
   
     return (
-        <nav >
+        <nav>
             <div className="navLogo">
                 <img src={require(".//img/me.jpg")} alt="myPic" />
             </div>
             <div className="navName">
                 <h1>S M Mehedi</h1>
                 <p>Web Developer</p>
+            </div>
+            <input type="checkbox" id="check"/>
+            <div className="menuButton">
+                <label htmlFor="check" className="button"> <GiHamburgerMenu/> </label>
             </div>
             <ul className="navItems">
                 <li><a href="#Home"><FaHome/> &nbsp; Home</a></li>

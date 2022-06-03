@@ -3,9 +3,9 @@
     position: fixed;
     bottom: 30px;
     right: 30px;
-    border: 2px solid #ff0000;
     border-radius: 10px;
     transition: 0.5s;
+    background-color: #f6f7ff;
 }
 
 .top:hover {

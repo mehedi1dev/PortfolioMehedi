@@ -36,7 +36,7 @@ h2 {
     margin: 10px 10px 30px 0px;
 }
 
-.button {
+.homeText>.button {
     display: flex;
 }
 
@@ -76,4 +76,12 @@ h2 {
     padding: 11px 20px;
     background-color: #202020;
     border-bottom: 4px solid #ff4321;
+}
+
+@media screen and (max-width: 850px) {
+    .homeText>.button {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
 }

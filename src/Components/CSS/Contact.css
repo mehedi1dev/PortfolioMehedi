@@ -7,11 +7,11 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
-.contact .title {
+.contact>.title {
     margin: 25px 30px;
 }
 
-.contact .title hr {
+.contact>.title>hr {
     margin-top: 5px;
     width: 50px;
     height: 5px;
@@ -20,8 +20,168 @@
     border-radius: 25px;
 }
 
-.contact .title h1 {
+.contact>.title>h1 {
     font-size: 40px;
     font-weight: bold;
+}
 
+.contactSection {
+    margin: 25px;
+    font-family: 'Space mono';
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.inputField:focus~.inputTitle,
+.inputField:not(:focus):valid~.inputTitle {
+    color: #282828;
+    background-color: #fff;
+    font-family: 'PT Sans Narrow';
+    font-size: 16px;
+    padding: 0px 5px;
+    top: -22px;
+}
+
+.inputField {
+    width: 80%;
+    height: 30px;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 5px 7px;
+    margin-bottom: 16px;
+    border: 1px solid #000;
+    font-family: 'Ubuntu';
+}
+
+.inputTitle {
+    position: relative;
+    left: -80%;
+    top: 0px;
+    pointer-events: none;
+    font-size: 18px;
+    transition: 0.3s ease all;
+
+}
+
+.inputFieldArea {
+    width: 80%;
+    height: 150px;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #000;
+    font-family: 'Ubuntu';
+}
+
+.inputFieldArea:focus~.inputTitleArea,
+.inputFieldArea:not(:focus):valid~.inputTitleArea {
+    color: #282828;
+    background-color: #fff;
+    font-family: 'PT Sans Narrow';
+    font-size: 16px;
+    padding: 0px 5px;
+    top: -177px;
+}
+
+.inputTitleArea {
+    position: relative;
+    left: -80%;
+    top: -150px;
+    pointer-events: none;
+    font-size: 18px;
+    transition: 0.3s ease all;
+}
+
+.contactForm>button {
+    margin: 20px 30px 20px 0px;
+    border: 1px;
+    width: 83%;
+    padding: 15px;
+    background-color: #1ee0aa;
+    color: #000;
+    border-radius: 5px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contactForm>button:hover {
+    background-color: #ff4321;
+    color: #fff;
+}
+
+.contactForm>button:active {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    transition: 0s;
+}
+
+.contactInfo {
+    margin-left: -40px;
+}
+
+.contactInfo>h3 {
+    font-size: 20px;
+    font-family: 'PT Sans Narrow';
+    text-transform: uppercase;
+    color: #f96e59;
+}
+
+.contactInfo>p {
+    margin-bottom: 20px;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+}
+
+.contactInfo>hr {
+    color: #c4c4c4;
+    margin-bottom: 20px;
+}
+
+.contactInfo>.socialLink {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contactInfo>div>a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    margin: 10px 10px 0px 0px;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+
+.contactInfo>div>a:hover {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bl {
+    border-right: 1px solid #000;
+}
+
+@media screen and (max-width:850px) {
+    .contactSection {
+        grid-template-columns: 1fr;
+    }
+
+    .contactForm {
+        width: 120%;
+    }
+
+    .contactInfo {
+        margin: 30px 10px;
+        text-align: center;
+    }
+
+    .contactInfo>.socialLink {
+        justify-content: center;
+    }
 }

@@ -42,6 +42,11 @@ ul {
     color: #ff4321;
 }
 
+.menuButton,
+#check {
+    display: none;
+}
+
 .navItems {
     margin-top: 40px;
 }
@@ -91,5 +96,106 @@ ul {
         height: 80%;
         margin-bottom: 15px;
         overflow: scroll;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    nav {
+        position: fixed;
+        top: 0px;
+        height: 70px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        padding: 15px;
+        border-radius: 0px;
+    }
+
+    .navLogo img {
+        align-items: center;
+        width: 65px;
+        height: 65px;
+    }
+
+    .navLogo img,
+    .navItems {
+        margin-top: 0px;
+    }
+
+    .navItems {
+        margin-right: 75px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navName,
+    .backgroundColor,
+    .resetButton {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 850px) {
+    nav {
+        grid-template-columns: 1fr 3fr;
+        overflow: visible;
+    }
+
+    .navLogo {
+        display: flex;
+        justify-content: left;
+    }
+
+    .navLogo img {
+        margin-left: 30px;
+    }
+
+    .menuButton {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        margin-right: 60px;
+    }
+
+    .menuButton>.button {
+        font-size: 30px;
+        padding: 10px;
+        padding-bottom: 3px;
+        border-radius: 5px;
+        color: #ff4321;
+        background-color: #fff;
+        transition: 0.3s;
+    }
+
+
+    .navItems {
+        position: fixed;
+        width: 40vw;
+        height: 100%;
+        top: 100px;
+        right: -100%;
+        background-color: #fc7f6d;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        padding-left: 25px;
+        transition: 0.5s;
+    }
+
+    .navItems>li>a:hover {
+        color: #f6f7ff;
+        border-color: #f6f7ff;
+    }
+
+    #check:checked~.navItems {
+        right: -67px;
+        transition: 0.5s;
+    }
+
+    #check:checked~.menuButton>.button {
+        color: #fff;
+        background-color: #ff4321;
+        transition: 0.3s;
     }
 }

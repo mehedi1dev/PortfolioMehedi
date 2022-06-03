@@ -56,3 +56,9 @@
     background-color: #1ee0aa;
     border-radius: 5px;
 }
+
+@media screen and (max-width:850px) {
+    .skillSection {
+        grid-template-columns: 1fr;
+    }
+}

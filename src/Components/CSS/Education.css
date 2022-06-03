@@ -25,3 +25,37 @@
     font-weight: bold;
 
 }
+
+.educationSection {
+    margin: auto 25px;
+    font-family: 'Space Mono';
+    font-size: 20px;
+    color: #909090;
+}
+
+.educationTypes {
+    margin: 20px auto;
+}
+
+.educationSection .educationYear {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.educationSection .educationTitle {
+    color: #000;
+    font-weight: bold;
+}
+
+.educationSection .educationInstitute {
+    font-style: italic;
+}
+
+.educationTypes hr {
+    height: 1px;
+    margin: 30px auto;
+    border: none;
+    background-color: #c4c4c4;
+}
