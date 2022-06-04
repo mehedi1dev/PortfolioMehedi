@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfoliomehedi/static/css/main.6cd72a4b.css",
+    "main.js": "/portfoliomehedi/static/js/main.ae96f4ef.js",
+    "static/media/me.jpg": "/portfoliomehedi/static/media/me.b019ac5b896b7b96ffeb.jpg",
+    "index.html": "/portfoliomehedi/index.html",
+    "main.6cd72a4b.css.map": "/portfoliomehedi/static/css/main.6cd72a4b.css.map",
+    "main.ae96f4ef.js.map": "/portfoliomehedi/static/js/main.ae96f4ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cd72a4b.css",
+    "static/js/main.ae96f4ef.js"
+  ]
+}
