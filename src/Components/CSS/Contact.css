@@ -134,8 +134,9 @@
 @media screen and (max-width: 1250px) {
     .contact {
         padding: 0px;
-        border-radius: 0px;
         box-shadow: none;
+        padding-bottom: 50px;
+        border-radius: 0px 0px 25px 25px;
     }
 
 }
