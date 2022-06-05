@@ -5,7 +5,6 @@
     right: 30px;
     border-radius: 10px;
     transition: 0.5s;
-    background-color: #f6f7ff;
 }
 
 .top:hover {
@@ -15,7 +14,6 @@
 }
 
 #BackToTop a {
-    color: #00f;
     text-decoration: none;
     font-size: 20px;
     transition: 0.5s;
@@ -23,6 +21,31 @@
 
 #BackToTop a:hover {
     font-size: 30px;
-    color: #fff;
     transition: 0.3s;
+}
+
+.themeChange {
+    padding: 10px 10px 5px 10px;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    border-radius: 100%;
+    border: none;
+    transition: 0.5s;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.light {
+    background-color: #1b252b;
+    color: #fff;
+}
+
+.dark {
+    background-color: #fff;
+    color: #1b252b;
+}
+
+.themeChange:hover {
+    font-size: 36px;
 }

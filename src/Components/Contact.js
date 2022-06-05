@@ -20,15 +20,15 @@ export const Contact = () => {
                 <div className="contactForm">
                     <div>
                         <input className="inputField" type="text" placeholder="Name" onChange={event => setName(event.target.value)} required/>
-                        <span className="inputTitle">Name</span>
+
                     </div>
                     <div>
                         <input className="inputField" type="text" placeholder="Email" onChange={event => setName(event.target.value)} required/>
-                        <span className="inputTitle">Email</span>
+                        
                     </div>
                     <div>
                         <textarea name="msg" className="inputFieldArea" placeholder="Message" required></textarea>
-                        <span className="inputTitleArea">Message</span>
+                        
                     </div>
                     <button>Send</button>
                 </div>

@@ -3,7 +3,7 @@
     padding: 20px;
     background-color: #fff;
     font-family: 'PT Sans Narrow', sans-serif;
-    border-start-start-radius: 25px;
+    border-radius: 25px 25px 0px 0px;
 }
 
 .about .title {
