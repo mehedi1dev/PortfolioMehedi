@@ -3,8 +3,7 @@
     padding: 20px;
     background-color: #fff;
     font-family: 'PT Sans Narrow', sans-serif;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    border-start-start-radius: 25px;
 }
 
 .about .title {
@@ -24,7 +23,6 @@
 .about .title h1 {
     font-size: 40px;
     font-weight: bold;
-
 }
 
 .aboutSection {
@@ -56,6 +54,15 @@
     margin-top: 25px;
 }
 
+@media screen and (max-width: 1250px) {
+    .about {
+        padding: 0px;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+}
+
 @media screen and (max-width:850px) {
     .aboutSection {
         display: block;
@@ -63,6 +70,22 @@
 
     .aboutSection img {
         display: none;
+    }
 
+    .about .title h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .aboutText {
+        margin: 20px;
+    }
+
+    .aboutText h1 {
+        font-size: 20px;
+    }
+
+    .aboutText p {
+        font-size: 16px;
     }
 }

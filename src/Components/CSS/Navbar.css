@@ -32,15 +32,11 @@ ul {
     text-align: center;
 }
 
-.navName h1 {
+.navName>p {
     margin-top: 15px;
     font-size: 40px;
 }
 
-.navName p {
-    font-size: 20px;
-    color: #ff4321;
-}
 
 .menuButton,
 #check {
@@ -132,6 +128,14 @@ ul {
     .backgroundColor,
     .resetButton {
         display: none;
+    }
+
+    .navItems li a {
+        font-size: 16px;
+    }
+
+    .navItems li a:hover {
+        font-size: 20px;
     }
 }
 

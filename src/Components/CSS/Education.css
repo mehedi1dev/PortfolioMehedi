@@ -3,8 +3,6 @@
     padding: 20px;
     background-color: #fff;
     font-family: 'PT Sans Narrow', sans-serif;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 .education .title {
@@ -58,4 +56,27 @@
     margin: 30px auto;
     border: none;
     background-color: #c4c4c4;
+}
+
+@media screen and (max-width: 1250px) {
+    .education {
+        padding: 0px;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .education .title h1 {
+        font-size: 30px;
+    }
+
+    .educationSection {
+        font-size: 16px;
+    }
+
+    .educationSection .educationYear {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
 }

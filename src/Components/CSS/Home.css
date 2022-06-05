@@ -78,10 +78,43 @@ h2 {
     border-bottom: 4px solid #ff4321;
 }
 
+@media screen and (max-width: 1250px) {
+    .homeSection {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+}
+
 @media screen and (max-width: 850px) {
+    .homeSection {
+        height: 500px;
+    }
+
     .homeText>.button {
         margin-top: 50px;
         flex-direction: column;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .btn {
+        padding: 14px;
+        margin: 20px 0px 10px 0px;
+        border: 1px;
+        border-radius: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
     }
 
 }

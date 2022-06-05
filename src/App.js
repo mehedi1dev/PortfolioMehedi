@@ -18,11 +18,11 @@ function App() {
         <Home />
         <div id='About' className='gap'></div>
         <About />
-        <div id='Skill' className='gap'></div>
+        <div id='Skill' className='gap bg-white'></div>
         <Skill />
-        <div id='Education' className='gap'></div>
+        <div id='Education' className='gap bg-white'></div>
         <Education />
-        <div id='Contact' className='gap'></div>
+        <div id='Contact' className='gap bg-white'></div>
         <Contact />
         <div style={{'height':'75px'}}></div>
       </div>

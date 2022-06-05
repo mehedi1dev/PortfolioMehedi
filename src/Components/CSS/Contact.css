@@ -1,10 +1,10 @@
 .contact {
     margin: 0px auto;
     padding: 20px;
+    padding-bottom: 50px;
     background-color: #fff;
     font-family: 'PT Sans Narrow', sans-serif;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    border-radius: 0px 0px 25px 25px;
 }
 
 .contact>.title {
@@ -60,6 +60,7 @@
     pointer-events: none;
     font-size: 18px;
     transition: 0.3s ease all;
+    color: transparent;
 
 }
 
@@ -91,6 +92,7 @@
     pointer-events: none;
     font-size: 18px;
     transition: 0.3s ease all;
+    color: transparent;
 }
 
 .contactForm>button {
@@ -167,6 +169,15 @@
     border-right: 1px solid #000;
 }
 
+@media screen and (max-width: 1250px) {
+    .contact {
+        padding: 0px;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+}
+
 @media screen and (max-width:850px) {
     .contactSection {
         grid-template-columns: 1fr;
@@ -184,4 +195,17 @@
     .contactInfo>.socialLink {
         justify-content: center;
     }
+
+    .inputFieldArea {
+        margin-bottom: -15px;
+    }
+
+    .contactInfo>h3 {
+        font-size: 18px;
+    }
+
+    .contactInfo>p {
+        font-size: 16px;
+    }
+
 }

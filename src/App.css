@@ -21,6 +21,14 @@ body {
     height: 50px;
 }
 
+.gap {
+    height: 50px;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
 @media screen and (max-width: 1250px) {
     body {
         background-color: #fff;
@@ -47,6 +55,6 @@ body {
     }
 
     .gap {
-        height: 100px;
+        height: 75px;
     }
 }
