@@ -41,6 +41,8 @@ export const BackToTop = () => {
         var contact = document.getElementsByClassName("contact");
         var inputField = document.getElementsByClassName("inputField");
         var inputFieldArea = document.getElementsByClassName("inputFieldArea");
+        var navItems = document.getElementsByClassName("navItems");
+
 
         if (isLightTheme) {
             // let x = window.matchMedia("(max-width: 1250px)")
@@ -65,10 +67,12 @@ export const BackToTop = () => {
             bgColorChange(skill, '#fff')
             bgColorChange(education, '#fff')
             bgColorChange(contact, '#fff')
+            bgColorChange(navItems, '#fff')
             colorChange(inputField, '#000')
             borderColorChange(inputField, '#000')
             colorChange(inputFieldArea, '#000')
             borderColorChange(inputFieldArea, '#000')
+            
 
         } else {
             document.body.style.backgroundColor = `#1b252b`
@@ -84,10 +88,12 @@ export const BackToTop = () => {
             bgColorChange(skill, '#26343d')
             bgColorChange(education, '#26343d')
             bgColorChange(contact, '#26343d')
+            bgColorChange(navItems, '#26343d')
             colorChange(inputField, '#fff')
             borderColorChange(inputField, '#fff')
             colorChange(inputFieldArea, '#fff')
             borderColorChange(inputFieldArea, '#fff')
+            
         }
         
     })

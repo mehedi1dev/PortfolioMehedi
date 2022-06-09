@@ -149,7 +149,7 @@ ul {
         padding-bottom: 3px;
         border-radius: 5px;
         color: #ff4321;
-        background-color: #fff;
+        background-color: transparent;
         transition: 0.3s;
     }
 
@@ -160,7 +160,7 @@ ul {
         height: 100%;
         top: 100px;
         right: -100%;
-        background-color: #fc7f6d;
+        background-color: #1b252b;
         display: flex;
         flex-direction: column;
         justify-content: left;
