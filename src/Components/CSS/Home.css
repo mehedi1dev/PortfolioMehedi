@@ -69,6 +69,7 @@ h2 {
 .hireButton {
     background-color: #ff4321;
     color: #fff;
+    text-decoration: none;
 }
 
 .hireButton:hover {

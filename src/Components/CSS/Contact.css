@@ -32,7 +32,23 @@
     grid-template-columns: 3fr 1fr;
 }
 
+.responseMessage {
+    width: 80%;
+    margin: 0px 0px 25px 0px;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
 
+.bg-teal {
+    background-color: #008080;
+}
+
+.bg-danger {
+    background-color: #800000;
+}
 
 .inputField {
     width: 80%;
@@ -145,13 +161,17 @@
         grid-template-columns: 1fr;
     }
 
+    .responseMessage {
+        width: 100%;
+    }
+
     .contactForm {
         width: 100%;
     }
 
     .inputField {
         width: 100%;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
 
     .inputFieldArea {
