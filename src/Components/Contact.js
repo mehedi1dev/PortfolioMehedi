@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 import { useFormspark } from "@formspark/use-formspark";
 
 import './CSS/Contact.css';
@@ -15,7 +14,7 @@ export const Contact = () => {
 
     const [response, setResponse] = useState(null)
 
-    const [submit, submitting] = useFormspark({
+    const [submit] = useFormspark({
         formId: FORMSPARK_FORM_ID,
       });
     
@@ -78,9 +77,9 @@ export const Contact = () => {
                     <hr />
                     <h3>On the web</h3>
                     <div className="socialLink">
-                        <a href="https://www.facebook.com/mehedi.primes/" target='_blank' className="bl">Facebook</a>
-                        <a href="https://github.com/MehediPrime" target='_blank' className="bl">Github</a>
-                        <a href="https://www.linkedin.com/in/mehediprime" target='_blank'>LinkedIn</a>
+                        <a href="https://www.facebook.com/mehedi.primes/" target='_blank' rel="noreferrer" className="bl">Facebook</a>
+                        <a href="https://github.com/MehediPrime" target='_blank' rel="noreferrer" className="bl">Github</a>
+                        <a href="https://www.linkedin.com/in/mehediprime" rel="noreferrer" target='_blank'>LinkedIn</a>
                     </div>
                     <hr />
                 </div>
