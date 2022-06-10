@@ -11,7 +11,7 @@ export const Home = () => {
             
             <div className="homeText">
                 <p className="hello"> HELLO,</p>
-                <h1>My name is <strong><span style={{ 'color': '#1ee0aa' }}>Mehedi</span></strong>,<strong><span style={{ 'color': 'transparent', 'fontSize':'0px' }}>Portfolio </span></strong></h1>
+                <h1>My name is <strong><span style={{ 'color': '#1ee0aa' }}>Mehedi</span></strong>,</h1>
                 <h2>I am a <strong><span style={{ 'color': '#1ee0aa' }}>Web Developer</span></strong>.</h2>
                 
                 <div className="button">
