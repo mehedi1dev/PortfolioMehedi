@@ -8,7 +8,7 @@ export const Navbar = () => {
     return (
         <nav>
             <div className="navLogo">
-                <img src={require(".//img/me.jpg")} alt="myPic" />
+                <img src={require(".//img/me.png")} alt="myPic" />
             </div>
             <div className="navName">
                 <h1>S M Mehedi</h1>
@@ -25,7 +25,6 @@ export const Navbar = () => {
                 <li><a href="#Education"><FaBook/>  &nbsp; Education</a></li>
                 <li><a href="#Contact"><FaMobile/>  &nbsp; Contact</a></li>
             </ul>
-        
         </nav>
     );
 }

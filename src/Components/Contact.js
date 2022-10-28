@@ -20,7 +20,6 @@ export const Contact = () => {
     
       const onSubmit = async (e) => {
           e.preventDefault();
-
           if (name && email && message) {
               if (emailCheck.test(email)) {
                   const submissionMessage = `Name: ${name};\n  Email: ${email};\n  Message: ${message}`
@@ -70,7 +69,7 @@ export const Contact = () => {
                     <p>s.mehedi2022@gmail.com</p>
                     <hr />
                     <h3>Phone</h3>
-                    <p>+8801981788997</p>
+                    <p>+880-xxxx-xxxxxx</p>
                     <hr />
                     <h3>Location</h3>
                     <p>Dhaka, Bangladesh.</p>
