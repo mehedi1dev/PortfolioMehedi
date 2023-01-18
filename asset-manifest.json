@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mehediprime.github.io/PortfolioMehedi/static/css/main.9a1dc12f.css",
-    "main.js": "/mehediprime.github.io/PortfolioMehedi/static/js/main.32218d0b.js",
-    "static/media/me.png": "/mehediprime.github.io/PortfolioMehedi/static/media/me.a6143582309785dca610.png",
-    "index.html": "/mehediprime.github.io/PortfolioMehedi/index.html",
-    "main.9a1dc12f.css.map": "/mehediprime.github.io/PortfolioMehedi/static/css/main.9a1dc12f.css.map",
-    "main.32218d0b.js.map": "/mehediprime.github.io/PortfolioMehedi/static/js/main.32218d0b.js.map"
+    "main.css": "/PortfolioMehedi/static/css/main.9a1dc12f.css",
+    "main.js": "/PortfolioMehedi/static/js/main.e711d9d2.js",
+    "static/media/me.png": "/PortfolioMehedi/static/media/me.a6143582309785dca610.png",
+    "index.html": "/PortfolioMehedi/index.html",
+    "main.9a1dc12f.css.map": "/PortfolioMehedi/static/css/main.9a1dc12f.css.map",
+    "main.e711d9d2.js.map": "/PortfolioMehedi/static/js/main.e711d9d2.js.map"
   },
   "entrypoints": [
     "static/css/main.9a1dc12f.css",
-    "static/js/main.32218d0b.js"
+    "static/js/main.e711d9d2.js"
   ]
 }
